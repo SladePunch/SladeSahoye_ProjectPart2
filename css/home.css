@@ -1,0 +1,278 @@
+/* Home page Styles Start */
+
+#home-body {
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+  background-color: #faf9f6;
+  min-height: 100vh;
+  color: #717171;
+  line-height: 25px;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+#home {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+#home-main {
+  flex: 1;
+  background-color: #fff;
+  margin-left: 15px;
+  padding: 25px;
+}
+
+#home-nav {
+  min-height: 70vh;
+  min-width: 20%;
+  background-color: #fff;
+  position: relative;
+}
+
+#home-nav ul,
+#footer-2 ul {
+  padding-left: 0px;
+}
+
+#home-nav ul li,
+#footer-2 ul li {
+  list-style: none;
+  padding: 10px 10px 10px 40px;
+}
+
+#home-nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+#footer-2 ul li a {
+  text-decoration: none;
+  color: #717171;
+}
+
+#home-nav ul li a img {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+
+#home-nav ul li:hover {
+  background-color: #eee;
+  height: 25px;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(45deg, pink, palevioletred);
+  border-image-slice: 1;
+  cursor: pointer;
+}
+
+#home-header {
+  background-image: url("../images/destinations-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #eee;
+  text-align: center;
+  height: 230px;
+  line-height: 200px;
+  margin-bottom: 15px;
+}
+
+#home-header h1 {
+  line-height: normal;
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+  letter-spacing: 1px;
+  font-size: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+}
+
+#home-header span {
+  color: palevioletred;
+  display: block;
+  font-size: small;
+  letter-spacing: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#home-main-desc {
+  overflow: auto;
+  margin-bottom: 30px;
+}
+
+#home-desc {
+  overflow: auto;
+}
+
+.home-text {
+  padding: 10px 25px;
+  font-weight: 300;
+  height: 200px;
+  max-width: 200px;
+  clear: both;
+}
+
+h2 {
+  color: palevioletred;
+  margin-top: 50px;
+}
+
+#welcome-header {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.home-btn {
+  padding: 10px 20px;
+  border: none;
+  float: right;
+  margin-bottom: 10px;
+  cursor: pointer;
+  margin-right: 25px;
+  color: white;
+  background-color: palevioletred;
+}
+
+.home-btn:hover {
+  background-color: rgb(236, 79, 105);
+}
+
+.home-bottom {
+  border-top: 1px solid #eaeaea;
+  padding: 10px;
+  clear: both;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  line-height: normal;
+}
+
+#accomodation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+}
+
+.food-acc-img {
+  border-radius: 10px;
+  background-size: cover;
+}
+
+.left-border-pink {
+  border-left: 5px solid pink;
+  padding: 0px 25px 25px 25px;
+}
+
+.left-indent {
+  margin-left: 40px;
+}
+
+.accomodation-1 {
+  height: 100%;
+  width: 50%;
+  margin-right: 10px;
+}
+
+.accomodation-main-desc {
+  width: 100%;
+  text-overflow: ellipsis;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 40px;
+  background-color: #f8f8f8;
+}
+
+#footer-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-1,
+#footer-2 {
+  border-right: 1px solid #eaeaea;
+  text-align: center;
+  width: 20%;
+}
+
+#footer-2 {
+  padding-right: 60px;
+}
+
+#footer-3 {
+  width: 40%;
+}
+
+.footer-input {
+  display: block;
+  border: none;
+  background-color: #fff;
+  margin: 10px 10px 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.reserve-input {
+  display: block;
+  border: none;
+  background-color: #fff;
+  margin: 10px 10px 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.footer-btn {
+  border: none;
+  background-color: #d87093;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%;
+}
+.reserve-btn {
+  border: none;
+  background-color: #d87093;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  width: 50%;
+}
+
+#reserve-form {
+  background-color: #faf9f6;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#reserve-form h2 {
+  text-align: center;
+}
+
+#client-name.error,
+#client-email.error {
+  border: 1px solid #f91919;
+}
+#reserve-form small {
+  font-size: 14px;
+  display: block;
+  color: #f91919;
+}
+
+/* Home page Styles End */

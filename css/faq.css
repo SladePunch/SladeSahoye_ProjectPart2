@@ -1,0 +1,297 @@
+/* Styled by: Slade Sahoye */
+
+#faq-nav-2 {
+  display: none;
+}
+
+#faq-body {
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+  background-color: #faf9f6;
+  min-height: 100vh;
+  color: #717171;
+  line-height: 25px;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+#faq {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+#faq-main {
+  flex: 1;
+  background-color: #fff;
+  margin-left: 15px;
+  padding: 25px;
+}
+
+#faq-nav {
+  min-height: 70vh;
+  min-width: 20%;
+  background-color: #fff;
+  position: relative;
+}
+
+#faq-main {
+  flex: 1;
+  background-color: #fff;
+  margin-left: 15px;
+  padding: 25px;
+}
+
+#faq-nav ul,
+#footer-2 ul {
+  padding-left: 0px;
+}
+
+#faq-nav ul li,
+#footer-2 ul li {
+  list-style: none;
+  padding: 10px 10px 10px 40px;
+}
+
+#faq-nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#footer-2 ul li a {
+  text-decoration: none;
+  color: #717171
+}
+
+#faq-nav ul li a img {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+
+#faq-nav ul li:hover {
+  background-color: #eee;
+  height: 25px;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(45deg, pink, palevioletred);
+  border-image-slice: 1;
+  cursor: pointer;
+}
+
+#faq-nav-2 ul,
+#footer-2 ul {
+  padding-left: 0px;
+}
+
+#faq-nav-2 ul li,
+#footer-2 ul li {
+  list-style: none;
+  padding: 10px 10px 10px 40px;
+}
+
+#faq-nav-2 ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#footer-2 ul li a {
+  text-decoration: none;
+  color: #717171
+}
+
+#faq-nav-2 ul li a img {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+
+#faq-nav-2 ul li:hover {
+  background-color: #eee;
+  height: 25px;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(45deg, pink, palevioletred);
+  border-image-slice: 1;
+  cursor: pointer;
+}
+
+#faq-header {
+  background-image: url("../images/destinations-bg.jpg");
+  /* Image Source: https://unsplash.com/photos/three-brown-wooden-boat-on-blue-lake-water-taken-at-daytime-T7K4aEPoGGk?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash */
+  background-size: cover;
+  background-position: center;
+  color: #eee;
+  text-align: center;
+  height: 230px;
+  line-height: 200px;
+  margin-bottom: 15px;
+}
+
+#faq-header h1 {
+  line-height: normal;
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+  letter-spacing: 1px;
+  font-size: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+}
+
+#faq-header h1 a {
+  text-decoration: none;
+  color: #eee;
+}
+
+#faq-header h1:hover {
+  text-shadow: 5px 5px 5px rgb(159, 193, 100);
+  cursor: pointer;
+}
+
+#faq-header span {
+  text-shadow: none;
+  color: palevioletred;
+  display: block;
+  font-size: small;
+  letter-spacing: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h2 {
+  color: #A1D6E2;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.intro-section {
+  margin-bottom: 20px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/car.jpg");
+  /* Image Source: https://automedia.revsinstitute.org/movie-cars-5-things-about-the-porsches-of-top-gun */
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.intro-section h1 {
+  font-size: 40px;
+  color: palevioletred;
+  margin-bottom: 20px;
+}
+
+.intro-section p {
+  font-size: 15px;
+  color: whitesmoke;
+  line-height: 1.6;
+  margin: 0 245px;
+}
+
+
+#accordion-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/great-wall-unesco-china.jpg');
+  /* Image Source: https://www.nationalgeographic.com/travel/world-heritage/article/great-wall-china */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#accordion,
+#accordion-2 {
+  margin: 20px 0;
+}
+
+#accordion h3,
+#accordion-2 h3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  color: #CEE6F2;
+  padding: 10px;
+  margin: 0;
+  cursor: pointer;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+#accordion div,
+#accordion-2 div {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+  font-size: 15px;
+  color: #FBEAEB;
+  display: none;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-size: cover;
+  background-position: center;
+}
+
+#accordion h3.active,
+#accordion-2 h3.active {
+  background-color: #ff6b6b;
+  color: #fff;
+}
+
+#accordion div.active,
+#accordion-2 div.active {
+  display: block;
+}
+
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 40px;
+  background-color: #F8F8F8;
+  margin-top: 20px;
+}
+
+#footer-1,
+#footer-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #eaeaea;
+  text-align: center;
+  width: 20%;
+}
+
+#footer-2 {
+  padding-right: 60px;
+}
+
+#footer-3 {
+  width: 40%;
+}
+
+.footer-input {
+  display: block;
+  border: none;
+  background-color: #fff;
+  margin: 10px 10px 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.footer-btn {
+  border: none;
+  background-color: #d87093;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%;
+}
