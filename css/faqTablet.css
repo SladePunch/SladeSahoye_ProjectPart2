@@ -190,6 +190,7 @@ h2 {
 #accordion div,
 #accordion-2 div {
   padding: 10px;
+  overflow-y: auto;
   background-color: #fff;
   border: 1px solid #ccc;
   border-top: none;
